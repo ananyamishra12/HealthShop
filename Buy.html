@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Health Shop</title>
+		<link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+		<link rel="shortcut icon" href="drug.png">
+	</head>
+	<body style="background-color: rgba(1, 211, 98);">
+        
+        <div style="background-image: url('865157.jpg');height:30vh;background-size: cover;background-repeat:no-repeat;"></div>
+		<nav class="nav" style="position: relative;top:-0.0em;">
+			
+			<button style=""><p style="font-size:1em;z-index: 1;padding-bottom:30px;margin:0px;position: relative;">Home</p>
+				</button>
+			
+			
+			<button style=""><p style="font-size:1em;z-index: 1;padding-bottom:30px;margin:0px;position: relative;">About</p>
+				</button>
+			
+			<button style=""><p style="font-size:1em;z-index: 1;padding-bottom:30px;margin:0px;position: relative;">Tips</p>
+				</button>
+			
+		</nav>
+
+		<div class="row" id="wrap" style="padding:0 2em;margin-top:-70vh; background-color: rgba(1, 211, 98);width: 100%;">
+		          <div class="card col-lg-3 col-md-4 col-sm-6 col-xs-12"><div style="width:100%; background-color: blueviolet;height: 10%;padding:0;">
+                      <h3> Product Title </h3>
+                </div>
+                      <hr>
+                <div class="container">
+                    <div class="col-lg-12 col-md-12 col-sm-12" style="padding:1em;">
+                        <h4>Product Info Title-wise</h4>
+                    </div>
+                    <hr>
+                    <div  class="col-lg-12 col-md-12 col-sm-12">
+                        <h3>Status</h3>
+                        <p>IPSUM LOREM GIPSUM GIBBERISH.</p>
+                    </div>
+                </div>
+                </div>
+            <div class="card col-lg-3 col-md-4 col-sm-6 col-xs-12"><div style="width:100%; background-color: blueviolet;height: 10%;padding:0;">
+                      <h3> Product Title </h3>
+                </div>
+                      <hr>
+                <div class="container">
+                    <div class="col-lg-12 col-md-12 col-sm-12" style="padding:1em;">
+                        <h4>Product Info Title-wise</h4>
+                    </div>
+                    <hr>
+                    <div  class="col-lg-12 col-md-12 col-sm-12">
+                        <h3>Status</h3>
+                        <p>IPSUM LOREM GIPSUM GIBBERISH.</p>
+                    </div>
+                </div>
+                </div>
+            <div class="card col-lg-3 col-md-4 col-sm-6 col-xs-12"><div style="width:100%; background-color: blueviolet;height: 10%;padding:0;">
+                      <h3> Product Title </h3>
+                </div>
+                      <hr>
+                <div class="container">
+                    <div class="col-lg-12 col-md-12 col-sm-12" style="padding:1em;">
+                        <h4>Product Info Title-wise</h4>
+                    </div>
+                    <hr>
+                    <div  class="col-lg-12 col-md-12 col-sm-12">
+                        <h3>Status</h3>
+                        <p>IPSUM LOREM GIPSUM GIBBERISH.</p>
+                    </div>
+                </div>
+                </div>
+            <div class="card col-lg-3 col-md-4 col-sm-6 col-xs-12"><div style="width:100%; background-color: blueviolet;height: 10%;padding:0;">
+                      <h3> Product Title </h3>
+                </div>
+                      <hr>
+                <div class="container">
+                    <div class="col-lg-12 col-md-12 col-sm-12" style="padding:1em;">
+                        <h4>Product Info Title-wise</h4>
+                    </div>
+                    <hr>
+                    <div  class="col-lg-12 col-md-12 col-sm-12">
+                        <h3>Status</h3>
+                        <p>IPSUM LOREM GIPSUM GIBBERISH.</p>
+                    </div>
+                </div>
+                </div>
+            <div class="card col-lg-3 col-md-4 col-sm-6 col-xs-12"><div style="width:100%; background-color: blueviolet;height: 10%;padding:0;">
+                      <h3> Product Title </h3>
+                </div>
+                      <hr>
+                <div class="container">
+                    <div class="col-lg-12 col-md-12 col-sm-12" style="padding:1em;">
+                        <h4>Product Info Title-wise</h4>
+                    </div>
+                    <hr>
+                    <div  class="col-lg-12 col-md-12 col-sm-12">
+                        <h3>Status</h3>
+                        <p>IPSUM LOREM GIPSUM GIBBERISH.</p>
+                    </div>
+                </div>
+                </div>
+            <div class="card col-lg-3 col-md-4 col-sm-6 col-xs-12"><div style="width:100%; background-color: blueviolet;height: 10%;padding:0;">
+                      <h3> Product Title </h3>
+                </div>
+                      <hr>
+                <div class="container">
+                    <div class="col-lg-12 col-md-12 col-sm-12" style="padding:1em;">
+                        <h4>Product Info Title-wise</h4>
+                    </div>
+                    <hr>
+                    <div  class="col-lg-12 col-md-12 col-sm-12">
+                        <h3>Status</h3>
+                        <p>IPSUM LOREM GIPSUM GIBBERISH.</p>
+                    </div>
+                </div>
+                </div>
+            
+            
+            
+
+		</div>
+        
+	<script>
+	var c=document.getElementsByClassName("card");
+	
+	var i;
+		for(i=0;i<7;i++){
+			c[i].children[0].src=i+4+".jpg";
+			c[i].children[0].style.flex="2";
+			document.getElementsById("wrap").style.maxWidth=window.innerWidth+"px";
+			c[i].style.maxWidth=(window.innerWidth/4)+"px";
+		}
+		window.addEventListener("resize",function(){
+			for(i=0;i<7;i++){
+			
+			c[i].style.width=(window.innerWidth/4)+"px";
+		});
+	</script>
+		<link rel="stylesheet" href="button.css">
+		</body>
+			</html>
+		

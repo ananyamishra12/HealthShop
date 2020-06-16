@@ -1,0 +1,110 @@
+
+h1{
+	font-size:12em;
+	padding:0px;
+	margin:0px;
+	position: relative;
+	left:50%;
+}
+h3{
+	font-size:4em;
+	margin:0px;
+	padding:0px;
+	position: relative;
+	left:10%;
+}
+p{
+	padding:-right:20px;
+}
+button{
+	padding:0px;
+	margin:0px;
+}
+button p{
+	z-index: 1;
+	position: relative;
+}
+
+.pa{
+	height:40em;
+	width:100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+html body{
+	font-family: TW Cen MT;
+	padding:0px;
+	margin:0px;
+}
+
+.nav{
+	height:3.4em;
+	width:100%;position: relative;
+	top:17.4em;
+	
+	background-color: rgba(104,104,104,0.45);
+}
+.fix{
+	position:fixed;
+	top:0px;
+	height:3.4em;
+	z-index: 1;
+	background-color: rgba(104,104,104,0.45);
+}
+
+.jumbotron{
+	font-family: TW Cen MT;
+	color:white;
+	width:auto;
+	padding-right: 2em;
+}
+
+
+
+ button{
+    height:3.4em;
+	width:5em;
+	font-size:1.5em;
+	border:none;
+	color:white;
+	position: relative;	
+	background-color: rgba(0,0,0,0);
+	overflow:hidden;
+	
+}
+
+button:before{
+	content:"";
+	height:5em;
+	border:none;
+	transition: all .2s;
+	background-color: #C92629;
+	width:5em;
+	position: absolute;
+	left:1em;
+	top:3em;
+}
+button:hover:before{
+	left:0em;
+	top:0em;
+	color:white;
+}
+button:hover p{
+	color:white;
+}
+
+
+.thumb{
+	height:30em;
+	width:14em;
+	background-color:rgba(183,183,183,1.00);
+	color:white;
+	border-radius:15px;	
+}
+.thumb p{
+	font-size:24px;
+	padding:10px;
+	margin:none;
+}

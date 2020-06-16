@@ -1,0 +1,41 @@
+<html>
+<body>
+<div style="position:relative; left:40%; top:10em; overflow:hidden;">
+<button>Hello</button>
+</div>
+<style>
+
+button{
+background-color:rgba(190,25,50,1);
+border-radius:8%;
+height:10em;
+width:10em;
+color:white;
+left:20em;
+overflow:hidden;
+transition:all 3s ease;
+}
+button:before{
+content:"";
+position:absolute;
+left:0px;
+top:10em;
+transition:all .5s ease;
+background-color:rgba(19,190,50,1);
+border-radius:8%;
+height:10em;
+width:10em;
+
+}
+
+
+button:hover:before{
+top:0;
+}
+
+
+
+</style>
+</body>
+
+</html>
